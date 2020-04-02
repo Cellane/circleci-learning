@@ -36,12 +36,12 @@ jobs:
       - image: alpine:3.7
     steps:
       - run:
-        name: Approval Complete
-        command: |
-          echo 'Do work once the approval has completed'
+          name: Approval Complete
+          command: |
+            echo 'Do work once the approval has completed'workflows:
 
-workflows:
   version: 2
+
   Example_Workflow:
     jobs:
       - Hello-World
