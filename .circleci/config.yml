@@ -38,7 +38,7 @@ jobs:
       - run:
           name: Approval Complete
           command: |
-            echo 'Do work once the approval has completed'workflows:
+            echo 'Do work once the approval has completed'
 
 workflows:
   version: 2
